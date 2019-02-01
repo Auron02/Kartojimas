@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+table, td, th {
+    border: 2px solid rgb(252, 198, 207);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    width:60%;
+}
+th, td{
+padding:15px;
+font-family: 'Courier New', Courier, monospace;
+}
+table tr:nth-child(1){
+    background-color: crimson;
+}
+table tr:nth-child(2){
+    background-color: coral;
+}
